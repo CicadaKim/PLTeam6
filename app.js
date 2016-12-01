@@ -27,8 +27,10 @@ app.listen(appEnv.port, '0.0.0.0', function() {
   console.log("server starting on " + appEnv.url);
 });
 
+/*
 compile 'com.ibm.watson.developer_cloud:java-sdk:3.3.0'
 DocumentConversion service = new DocumentConversion("2016-11-29");
 service.setUsernameAndPassword("{Team6}","{ghtjd3064}");
 // I just put these three lines of code, just for testing...
 // these 3 lines are from document conversation api reference. - PandaTim
+*/
