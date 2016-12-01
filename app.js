@@ -13,15 +13,13 @@ var express = require('express');
 var cfenv = require('cfenv');
 
 // document conversion
-var conversion = require('/routes/conversion');
+var conversion = require('./routes/conversion');
 
 // create a new express server
 var app = express();
 
 // serve the files out of ./public as our main files
 app.use(express.static(__dirname + '/public'));
-app.use(express.static('plteam6.mybluemix.net/public'));
-app.use(express.static(__dirname +'plteam6.mybluemix.net/public'));
 
 app.use(conversion);
 
