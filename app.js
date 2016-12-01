@@ -20,6 +20,8 @@ var app = express();
 
 // serve the files out of ./public as our main files
 app.use(express.static(__dirname + '/public'));
+app.use(express.static('http://plteam6.mybluemix.net/public'));
+app.use(express.static(__dirname +'http://plteam6.mybluemix.net/public'));
 
 app.use(conversion);
 
