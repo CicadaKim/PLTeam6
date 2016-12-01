@@ -7,8 +7,8 @@ var fs = require('fs');
 
 router.get('/conversion',function(req,res,next){
 	var document_conversion = watson.document_conversion({
-		username:     'e1eefee0-529b-4529-b31f-e099ab61a858',
-		password:     '4HhGXMyfyl28',
+		username:     '571ca2ba-2084-490a-912e-5b5274419d15',
+		password:     'vAlnKuRmSLoQ',
 		version:      'v1',
 		version_date: '2015-12-15'
 	});
